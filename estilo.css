@@ -1,0 +1,25 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	height: 100%
+}
+.item{
+	background-color: #333;
+	color: #FFF;
+	width: 150px;
+	text-align: center;
+	margin: 5px;
+	line-height: 150px;
+	font-size: 3em;
+}
+
+.flex-container{
+	height: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	flex-flow: row-reverse wrap;
+	justify-content: center;
+	align-items: center;
+}
